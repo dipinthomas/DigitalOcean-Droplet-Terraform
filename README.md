@@ -65,7 +65,7 @@ Above command will return lot of useful information about the environment, pleas
 
 # Firewall Rules
 
-Network port access to the droplet is limited for few ports only, you can find the confiugration in [firewall.tf](https://github.com/dipinthomas/digitalocean-droplet-terraform/blob/master/firewall.tf)
+Network port access to the droplet is limited to few ports only, you can find the confiugration in [firewall.tf](https://github.com/dipinthomas/digitalocean-droplet-terraform/blob/master/firewall.tf)
 
 
 # Build reactJS docker image

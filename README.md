@@ -12,7 +12,7 @@ Terraform requires DigitalOcean API key for authentication, steps to generate AP
 
 terraform.tfvars  is the configration file which contains all environment values required to deploy a cloud infrastructure. 
 
-Update variable value in terraform.tfvars with api key generated above
+Update variable value in **terraform.tfvars** with api key generated above
 
 **do_token = "694507a9ae35e3382"**
 

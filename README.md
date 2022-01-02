@@ -108,7 +108,7 @@ docker-compose in github [gist](https://gist.github.com/dipinthomas/82fb48d6ef2a
 
 # Validation
 
-Once the above steps are successful, you can access the application using droplet VM public IP address, which is found in the output of terraform commands.
+Once the above steps are successful, you can access the application using droplet public IP address, which is found in the output of terraform commands.
 
 
 ![](./img/public_ip.png)

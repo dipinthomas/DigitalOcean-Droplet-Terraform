@@ -1,4 +1,4 @@
-do_token                   =  #"694507a9ae35e3382bcdc1bdb30e4bd8febb0f0dddcdd29706add53ce427f370"
+do_token                   =  "<replace_me>"
 pub_key_location           = "~/.ssh/id_rsa.pub"
 pvt_key_location           = "~/.ssh/id_rsa"
 dorplet_image              = "ubuntu-20-04-x64"

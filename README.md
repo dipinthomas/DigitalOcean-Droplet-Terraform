@@ -16,6 +16,8 @@ Update variable value in **terraform.tfvars** with api key generated above
 
 **do_token = "694507a9ae35e3382"**
 
+*note: ensure the api key is push to git repository*
+
 
 # Install Terraform
 

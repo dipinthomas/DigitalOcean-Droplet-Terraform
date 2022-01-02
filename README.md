@@ -33,7 +33,7 @@ By running below command pair of private and public will be generated in *~/.ssh
 
 # Deploy Droplet
 
-After above dependency are met, clone this repository and change directory this repo.
+After above dependency are met, clone this repository and change directory to this repo.
 
 > cd DigitalOcean-Droplet-Terraform
 

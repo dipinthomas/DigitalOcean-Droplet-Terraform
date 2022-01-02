@@ -63,13 +63,15 @@ Above command will return lot of useful information about the environment, pleas
 
 # Build reactJS docker image
 
-We will use a simple [reactJS application](https://github.com/dipinthomas/reactJS_application) to validate our deployment.
+We will use a simple [reactJS application](https://github.com/dipinthomas/reactJS-application) to validate our deployment.
 
-Application repository can be found [here](https://github.com/dipinthomas/reactJS_application)
+Application repository can be found [here](https://github.com/dipinthomas/reactJS-application)
 
 Follow below step to create a docker image
 
 ## Update .env files
+
+> clone [reactJS](https://github.com/dipinthomas/reactJS-application) git repository 
 
 Navigate to *.env* file which is present in the **frontend** folder. Update value for variable "REACT_APP_PROXY_HOST", with the IP address which was return in the **terraform show** command
 

@@ -63,9 +63,11 @@ Above command will return lot of useful information about the environment, pleas
 
 # Build reactJS docker image
 
-We will use a simple reactJS application to validate our deployment.
+We will use a simple [reactJS application](https://github.com/dipinthomas/reactJS_application) to validate our deployment.
 
-Application repository is here
+Application repository can be found [here](https://github.com/dipinthomas/reactJS_application)
+
+Follow below step to create a docker image
 
 ## Update .env files
 
@@ -83,7 +85,7 @@ docker-compose in github [gist](https://gist.github.com/dipinthomas/82fb48d6ef2a
 
 > docker-compose up -d
 
-*note: if the image name or tag has changed, please make sure in docker-compose.yaml file is updated*
+*note: Above docker-compose is for reference purpose only. if you are buidling your own image then the image name or tag has to be changed in the compose-file, please make sure in docker-compose.yaml file is updated*
 
 
 # Validation

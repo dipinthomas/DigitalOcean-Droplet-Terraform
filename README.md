@@ -103,6 +103,8 @@ docker-compose in github [gist](https://gist.github.com/dipinthomas/82fb48d6ef2a
 
 *note: Above docker-compose is for reference purpose only. if you are buidling your own image then the image name and tag should be updated in the compose-file, please make sure in docker-compose.yaml file is updated*
 
+*These steps can be automated using CI/CD pipeline*
+
 
 # Validation
 

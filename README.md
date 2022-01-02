@@ -73,7 +73,14 @@ Follow below step to create a docker image
 
 > clone [reactJS](https://github.com/dipinthomas/reactJS-application) git repository 
 
-Navigate to *.env* file which is present in the **frontend** folder. Update value for variable "REACT_APP_PROXY_HOST", with the IP address which was return in the **terraform show** command
+create *.env* file in the **frontend** folder. Update value for variable "REACT_APP_PROXY_HOST", with the IP address which was return in the **terraform show** command
+
+*.env* should be as below
+
+```
+REACT_APP_PROXY_HOST=xxx.xxx.xxx.xxx <replace with droplet ip>
+REACT_APP_PROXY_PORT=5000
+```
 
 ## build & push
 
@@ -87,7 +94,7 @@ docker-compose in github [gist](https://gist.github.com/dipinthomas/82fb48d6ef2a
 
 > docker-compose up -d
 
-*note: Above docker-compose is for reference purpose only. if you are buidling your own image then the image name or tag has to be changed in the compose-file, please make sure in docker-compose.yaml file is updated*
+*note: Above docker-compose is for reference purpose only. if you are buidling your own image then the image name and tag should be updated in the compose-file, please make sure in docker-compose.yaml file is updated*
 
 
 # Validation
